@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw_source
+    database: DBT_CLOUD
+    schema: RAW_SCHEMA
+    tables:
+      - name: orders
